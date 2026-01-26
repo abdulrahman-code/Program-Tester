@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Program Tester (Dark UI, English-only)
-- Upload one Python (.py) file
-- Run static checks (no execution): syntax, style, docstrings, naming, complexity, risky patterns
-- Run a basic unit test in a subprocess with timeout (imports the module, which executes top-level code)
-- Show results in a clean dark GUI
 
-Standard library only (no pip).
-"""
 
 from __future__ import annotations
 
@@ -401,7 +393,7 @@ def verdict(static_rep: Dict[str, Any], test_rep: Optional[Dict[str, Any]]) -> D
 
 
 # ----------------------------
-# App Info (English-only, simpler)
+#          App Info 
 # ----------------------------
 
 ABOUT_TEXT = """Program Info
@@ -419,12 +411,12 @@ Warning:
 - Importing a Python file runs its top-level code
 - Do not test untrusted files unless you use a safe sandbox
 
-Developer: Abdulrahman Hijazi
+Developer: Abdulrahman Hgazy
 """
 
 
 # ----------------------------
-# Icon (generated in code)
+#           Icon 
 # ----------------------------
 
 def build_icon_image() -> tk.PhotoImage:
@@ -493,7 +485,7 @@ def set_app_icon(root: tk.Tk) -> None:
 
 
 # ----------------------------
-# GUI
+#            GUI
 # ----------------------------
 
 class ProgramTesterApp:
