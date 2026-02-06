@@ -1,4 +1,4 @@
-````markdown
+
 # Scientific Calculator (CustomTkinter)  
 **Unit-Tested Math Engine with a Simple Desktop UI**
 
@@ -245,6 +245,5 @@ py -m pip install customtkinter
 You can use/modify/distribute with attribution to the developer.
 
 ---
+```
 
-```
-```
